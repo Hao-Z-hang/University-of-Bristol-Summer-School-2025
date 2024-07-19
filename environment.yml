@@ -2,12 +2,26 @@ name: environment
 channels:
   - conda-forge
 dependencies:
-  - python
-  - numpy
   - pip
   - pip:
+    - numpy
     - wordcloud
     - matplotlib
     - pandas
     - gensim
     - nltk
+    - json
+    - ast
+    - os
+  - python
+  - numpy
+  - wordcloud
+  - matplotlib
+  - pandas
+  - gensim
+  - nltk
+  - json
+  - ast
+  - os
+  
+
