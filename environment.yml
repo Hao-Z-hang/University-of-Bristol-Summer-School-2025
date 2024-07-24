@@ -15,6 +15,3 @@ dependencies:
   - pip
   - pip:
     - jupyter
-
-postBuild: |
-  python -c "import nltk; nltk.download('punkt')"
