@@ -3,8 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python
-  - pip
+  - python=3.8
   - numpy
   - folium
   - wordcloud
@@ -13,7 +12,6 @@ dependencies:
   - gensim
   - nltk
   - cython
-  - gcc
-  - make
+  - pip
   - pip:
     - jupyter
