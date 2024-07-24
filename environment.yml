@@ -4,12 +4,12 @@ channels:
   - defaults
 dependencies:
   - python
-  - scipy
   - numpy
   - folium
   - wordcloud
   - matplotlib
   - pandas
+  - scipy
   - gensim
   - nltk
   - pip
