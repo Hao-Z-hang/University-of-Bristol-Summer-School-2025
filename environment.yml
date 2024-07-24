@@ -4,14 +4,17 @@ channels:
   - defaults
 dependencies:
   - python=3.9
-  - scipy
+  - scipy=1.8.1
   - numpy
   - folium
   - wordcloud
   - matplotlib
   - pandas
-  - gensim
+  - gensim=4.1.2
   - nltk
   - pip
   - pip:
     - jupyter
+
+postBuild: |
+  python -c "import nltk; nltk.download('punkt')"
