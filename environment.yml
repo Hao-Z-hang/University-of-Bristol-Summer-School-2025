@@ -12,7 +12,6 @@ dependencies:
   - pandas
   - gensim==4.3.1
   - nltk==3.8.1
-  - cython
   - pip
   - pip:
     - jupyter
