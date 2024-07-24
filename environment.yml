@@ -10,8 +10,8 @@ dependencies:
   - wordcloud
   - matplotlib
   - pandas
-  - gensim
-  - nltk
   - pip
   - pip:
+    - gensim==4.1.2
+    - nltk
     - jupyter
