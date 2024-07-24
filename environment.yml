@@ -3,15 +3,15 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.8
-  - scipy==1.10.1
+  - python=3.9
+  - scipy
   - numpy
   - folium
   - wordcloud
   - matplotlib
   - pandas
-  - gensim==4.3.1
-  - nltk==3.8.1
+  - gensim
+  - nltk
   - pip
   - pip:
     - jupyter
