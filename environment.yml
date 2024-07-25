@@ -5,12 +5,12 @@ channels:
 dependencies:
   - python=3.9
   - pandas
-  - numpy
+  - numpy=1.22.4
   - folium
   - wordcloud
   - matplotlib
-  - scipy  
-  - gensim
+  - scipy=1.8.1
+  - gensim=4.1.2
   - nltk
   - pip
   - pip:
