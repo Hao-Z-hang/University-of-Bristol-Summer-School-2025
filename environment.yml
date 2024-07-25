@@ -4,13 +4,13 @@ channels:
   - defaults
 dependencies:
   - python=3.9
-  - scipy
-  - numpy
+  - scipy=1.8.1
+  - numpy=1.22.4
   - folium
   - wordcloud
   - matplotlib
   - pandas
-  - gensim
+  - gensim=4.1.2
   - nltk
   - pip
   - pip:
