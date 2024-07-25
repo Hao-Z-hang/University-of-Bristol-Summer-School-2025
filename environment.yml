@@ -3,13 +3,13 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python
+  - python=3.9
+  - scipy
   - numpy
   - folium
   - wordcloud
   - matplotlib
   - pandas
-  - scipy
   - gensim
   - nltk
   - pip
