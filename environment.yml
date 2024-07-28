@@ -14,9 +14,8 @@ dependencies:
   - nltk
   - pip>20.3
   - rasterio
-  - sklearn
-  - scipy
-  - PIL
+  - scikit-learn
+  - pillow
   - pip:
     - jupyter
     - tensorflow
