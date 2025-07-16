@@ -5,7 +5,6 @@ channels:
 dependencies:
   - python=3.9
   - pandas
-  - numpy=1.23.0
   - folium
   - wordcloud
   - matplotlib
@@ -19,5 +18,6 @@ dependencies:
   - pip:
     - jupyter
     - tensorflow
+    - numpy==1.23.0
 postBuild: |
   python -c "import nltk; nltk.download('punkt')"
