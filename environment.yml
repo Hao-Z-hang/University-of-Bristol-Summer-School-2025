@@ -21,4 +21,4 @@ dependencies:
     - tensorflow
     - numpy==1.24.0
 postBuild: |
-  python -c "import nltk; nltk.download('punkt')"
+  python -c "import nltk; nltk.download('punkt'); nltk.download('punkt_tab')"
