@@ -8,16 +8,17 @@ dependencies:
   - folium
   - wordcloud
   - matplotlib
-  - scipy=1.8.1
+  - scipy=1.9.0
   - gensim=4.1.2
   - nltk
   - pip>20.3
   - rasterio
   - scikit-learn
   - pillow
+  - typing-extensions>=4.6.1
   - pip:
     - jupyter
     - tensorflow
-    - numpy==1.23.0
+    - numpy==1.24.0
 postBuild: |
   python -c "import nltk; nltk.download('punkt')"
